@@ -1,19 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AppRoutesModule } from './/app-routes.module';
 import { AboutComponent } from './about/about.component';
+import { FrontComponent } from './front/front.component';
+import { PicsumCarouselComponent } from './picsum-carousel/picsum-carousel.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    FrontComponent,
+    PicsumCarouselComponent,
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpModule,
     NgbModule.forRoot(),
     AppRoutesModule,
   ],
