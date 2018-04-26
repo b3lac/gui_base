@@ -1,27 +1,31 @@
 <div class="container">
     <div class="row">
-        <ngb-carousel *ngIf="images">
-            <ng-template ngbSlide>
-                <img [src]="images[0]">
-                <div class="carousel-caption">
-                    <h3>First Slide</h3>
-                    <p>First Slide Description</p>
-                </div>
-            </ng-template>
-            <ng-template ngbSlide>
-                <img [src]="images[1]">
-                <div class="carousel-caption">
-                    <h3>Second Slide</h3>
-                    <p>Second Slide Description</p>
-                </div>
-            </ng-template>
-            <ng-template ngbSlide>
-                <img [src]="images[2]">
-                <div class="carousel-caption">
-                    <h3>Third Slide</h3>
-                    <p>Third Slide Description</p>
-                </div>
-            </ng-template>
-        </ngb-carousel>
+        <div class="col-sm"></div>
+        <div class="col-sm">
+            <ngb-carousel>
+                <ng-template ngbSlide>
+                    <img src="../assets/images/carousel0.jpeg">
+                    <div class="carousel-caption">
+                        <h3>First Slide</h3>
+                        <p>First Slide Description</p>
+                    </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <img src="../assets/images/carousel1.jpeg">
+                    <div class="carousel-caption">
+                        <h3>Second Slide</h3>
+                        <p>Second Slide Description</p>
+                    </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <img src="../assets/images/carousel0.jpeg">
+                    <div class="carousel-caption">
+                        <h3>Third Slide</h3>
+                        <p>Third Slide Description</p>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+        <div class="col-sm"></div>
     </div>
 </div>
