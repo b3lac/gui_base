@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { FrontComponent } from './front/front.component';
 import { PicsumCarouselComponent } from './picsum-carousel/picsum-carousel.component';
 import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
+import { BodyFluidComponent } from './body-fluid/body-fluid.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
     FrontComponent,
     PicsumCarouselComponent,
     MenuDropdownComponent,
+    BodyFluidComponent,
   ],
   imports: [
     BrowserModule,
