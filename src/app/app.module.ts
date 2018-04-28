@@ -9,6 +9,7 @@ import { AppRoutesModule } from './/app-routes.module';
 import { AboutComponent } from './about/about.component';
 import { FrontComponent } from './front/front.component';
 import { PicsumCarouselComponent } from './picsum-carousel/picsum-carousel.component';
+import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { PicsumCarouselComponent } from './picsum-carousel/picsum-carousel.compo
     AboutComponent,
     FrontComponent,
     PicsumCarouselComponent,
+    MenuDropdownComponent,
   ],
   imports: [
     BrowserModule,
