@@ -12,6 +12,8 @@ import { PicsumCarouselComponent } from './picsum-carousel/picsum-carousel.compo
 import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
 import { BodyFluidComponent } from './body-fluid/body-fluid.component';
 import { FooterComponent } from './footer/footer.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { BodyCol9Component } from './body-col9/body-col9.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     MenuDropdownComponent,
     BodyFluidComponent,
     FooterComponent,
+    SideNavComponent,
+    BodyCol9Component,
   ],
   imports: [
     BrowserModule,
