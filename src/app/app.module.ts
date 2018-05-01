@@ -14,6 +14,8 @@ import { BodyFluidComponent } from './body-fluid/body-fluid.component';
 import { FooterComponent } from './footer/footer.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { BodyCol9Component } from './body-col9/body-col9.component';
+import { SearchComponent } from './search/search.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { BodyCol9Component } from './body-col9/body-col9.component';
     FooterComponent,
     SideNavComponent,
     BodyCol9Component,
+    SearchComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
