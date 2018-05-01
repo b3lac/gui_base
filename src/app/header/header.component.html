@@ -1,10 +1,14 @@
-<div class="col">
-    <header>
+<nav class="navbar navbar-expand-md" id="header">
+    <div class="d-inline-flex mr-auto p-2">
         <h1>
             {{ title }}
         </h1>
-    </header>
-</div>
-<div class="col text-right">
-    <app-menu-dropdown></app-menu-dropdown>
-</div>
+
+    </div>
+    <div class="p-2">
+        <app-menu-dropdown></app-menu-dropdown>
+    </div>
+    <div class="p-2">
+        <app-search></app-search>
+    </div>
+</nav>
