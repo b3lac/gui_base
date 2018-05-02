@@ -16,6 +16,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { BodyCol9Component } from './body-col9/body-col9.component';
 import { SearchComponent } from './search/search.component';
 import { HeaderComponent } from './header/header.component';
+import { CrudComponent } from './crud/crud.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { HeaderComponent } from './header/header.component';
     BodyCol9Component,
     SearchComponent,
     HeaderComponent,
+    CrudComponent,
   ],
   imports: [
     BrowserModule,
