@@ -6,9 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderSectionComponent } from './Core/header-section/header-section.component';
 import { MiddleSectionComponent } from './Core/middle-section/middle-section.component';
 import { FooterSectionComponent } from './Core/footer-section/footer-section.component';
-import { OneColComponent } from './layouts/one-col/one-col.component';
-import { TwoColComponent } from './layouts/two-col/two-col.component';
-import { ThreeColComponent } from './layouts/three-col/three-col.component';
+import { OneColComponent } from './Templates/one-col/one-col.component';
+import { TwoColComponent } from './Templates/two-col/two-col.component';
+import { ThreeColComponent } from './Templates/three-col/three-col.component';
+import { HeaderBlockComponent } from './Core/header-block/header-block.component';
+import { NavBlockComponent } from './Core/nav-block/nav-block.component';
+import { ContentBlockComponent } from './Core/content-block/content-block.component';
+import { FooterBlockComponent } from './Core/footer-block/footer-block.component';
 
 
 
@@ -21,6 +25,10 @@ import { ThreeColComponent } from './layouts/three-col/three-col.component';
     OneColComponent,
     TwoColComponent,
     ThreeColComponent,
+    HeaderBlockComponent,
+    NavBlockComponent,
+    ContentBlockComponent,
+    FooterBlockComponent,
   ],
   imports: [
     BrowserModule
