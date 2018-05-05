@@ -4,7 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone this repository and `cd` into the `gui_base` folder. 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Run `ng serve -o` to have Angular-cli open the project on your browser. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
