@@ -1,10 +1,20 @@
+
+
+
 # NgGuiBase
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+# Building a GUI from the ground up
+
+As I build this component, template and theme library for use in all types of applications, i'll be documenting my progress. Feel free to contribute, and enjoy.
+
+[Part 1: Angular Bootstrap and the Router](github.com/b3lac/gui_base/tree/master/Part1.md) 
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone this repository and `cd` into the `gui_base` folder. 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Run `ng serve -o` to have Angular-cli open the project on your browser. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
