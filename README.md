@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 As I build this component, template and theme library for use in all types of applications, i'll be documenting my progress. Feel free to contribute, and enjoy.
 
-[Part 1: Angular Bootstrap and the Router](github.com/b3lac/gui_base/tree/master/Part1.md) 
+[Part 1: Angular Bootstrap and the Router](https://github.com/b3lac/gui_base/blob/master/part1.md) 
 
 ## Development server
 
