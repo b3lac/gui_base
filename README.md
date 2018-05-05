@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+# Building a GUI from the ground up
+
+As I build this component, template and theme library for use in all types of applications, i'll be documenting my progress. Feel free to contribute, and enjoy.
+
+[Part 1: Angular Bootstrap and the Router](https://github.com/b3lac/gui_base/blob/master/part1.md) 
+
 ## Development server
 
 Clone this repository and `cd` into the `gui_base` folder. 
