@@ -13,6 +13,9 @@ import { HeaderBlockComponent } from './Core/header-block/header-block.component
 import { NavBlockComponent } from './Core/nav-block/nav-block.component';
 import { ContentBlockComponent } from './Core/content-block/content-block.component';
 import { FooterBlockComponent } from './Core/footer-block/footer-block.component';
+import { RoutesModule } from './Core/routes/routes.module';
+import { FrontComponent } from './Pages/front/front.component';
+import { AboutComponent } from './Pages/about/about.component';
 
 
 
@@ -29,9 +32,12 @@ import { FooterBlockComponent } from './Core/footer-block/footer-block.component
     NavBlockComponent,
     ContentBlockComponent,
     FooterBlockComponent,
+    FrontComponent,
+    AboutComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
